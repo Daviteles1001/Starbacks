@@ -1,0 +1,14 @@
+{
+   "menu": {
+       "home": "Hombre",
+           "menu": "Menú",
+           "what": "Nuevo",
+           "contact": "Contacto"
+          },
+       
+    "text": {
+          "starbacks": "<br>Más que Café La Experiencia <span>Sᴛᴀʀʙᴀᴄᴋꜱ</span>",
+           "52": "Con 52 años de dedicación al café, te invito a explorar con nosotros el universo de sabor, tradición y calidad única de 'STARBACKS'. Prepárate para un viaje sensorial enriquecedor y despierta tu AMOR por el Café.",
+           "Learn": "aprende más"
+          }
+       }

@@ -11,20 +11,30 @@
         <header>
             <a href="#" class="logo"><img src="logo.png"></a>
             <ul class="ul">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">what's New</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="active" data-section="menu" data-value="home">Home</a></li>
+                <li><a href="#" data-section="menu" data-value="menu">Menu</a></li>
+                <li><a href="#" data-section="menu" data-value="what">what's New</a></li>
+                <li><a href="#" data-section="menu" data-value="contact">Contact</a></li>
+                <div id="flags" class="flags">
+                    <div class="flags__item" data-language="br" >
+                      <img src="br.png" alt="" />
+                    </div>
+                    <div class="flags__item" data-language="en" >
+                      <img src="en.png" alt="" />
+                    </div>
+                    <div class="flags__item" data-language="es" >
+                      <img src="es.png" alt="" />
+                    </div>
             </ul>
         </header>
         <div class="content">
             <div class="textBox">
-                <h2><br>MᴀɪꜱﾠᴅᴏﾠϙᴜᴇﾠCᴀғᴇﾠAﾠExᴘᴇʀɪᴇɴᴄɪᴀﾠ<span>Sᴛᴀʀʙᴀᴄᴋꜱ</span></h2>
-                <p>Cᴏᴍﾠ52ﾠᴀɴᴏsﾠᴅᴇﾠᴅᴇᴅɪᴄᴀᴄᴀᴏﾠᴀᴏﾠᴄᴀғᴇ,ﾠᴄᴏɴᴠɪᴅᴏﾠᴠᴏᴄᴇﾠᴀﾠᴇxᴘʟᴏʀᴀʀ
+                <h2 data-section="text" data-value="starbacks"><br>MᴀɪꜱﾠᴅᴏﾠϙᴜᴇﾠCᴀғᴇﾠAﾠExᴘᴇʀɪᴇɴᴄɪᴀﾠ<span>Sᴛᴀʀʙᴀᴄᴋꜱ</span></h2>
+                <p data-section="text" data-value="52">Cᴏᴍﾠ52ﾠᴀɴᴏsﾠᴅᴇﾠᴅᴇᴅɪᴄᴀᴄᴀᴏﾠᴀᴏﾠᴄᴀғᴇ,ﾠᴄᴏɴᴠɪᴅᴏﾠᴠᴏᴄᴇﾠᴀﾠᴇxᴘʟᴏʀᴀʀ
             ᴄᴏɴᴏsᴄᴏﾠᴏﾠᴜɴɪᴠᴇʀsᴏﾠᴅᴏﾠsᴀʙᴏʀ,ﾠᴛʀᴀᴅɪᴄᴀᴏﾠᴇﾠǫᴜᴀʟɪᴅᴀᴅᴇﾠᴜɴɪᴄa
             ﾠᴅᴀﾠ"sᴛᴀʀʙᴀᴄᴋs".ﾠᴘʀᴇᴘᴀʀᴇ-sᴇﾠᴘᴀʀᴀﾠᴜᴍᴀﾠᴊᴏʀɴᴀᴅᴀﾠsᴇɴsᴏʀɪᴀʟﾠᴇɴʀɪǫᴜᴇᴄᴇᴅᴏʀa
             ﾠﾠﾠᴇﾠᴅᴇsᴘᴇʀᴛᴇﾠsᴇᴜ AMOR pelo ᴄᴀғᴇ.</p>
-                 <a href="#">Learn More</a>
+                 <a href="#" data-section="text" data-value="Learn">Learn More</a>
                 </div>
                  <div class="imgBox">
                      <img src="img1.png" class="starbacks">
@@ -52,6 +62,6 @@
             circle.style.background = color;
         }
      </script>
-
+<script src="linguagem.js"></script>
 </body>
 </html>

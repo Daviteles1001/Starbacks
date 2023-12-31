@@ -164,3 +164,20 @@ header ul li a {
 .ul a.active {
    color: #017143;
 }
+
+.flags {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .flags__item {
+    width: 30px;
+    margin-left: 15px;
+  }
+  
+  .flags__img {
+    display: block;
+    cursor:pointer;
+  }
